@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.head {
+  width: 800px;
+}
+
+#head-navlink .navbar ul .one {
+  background-color: #f45369;
+  border: 5px solid #f45369;
+}
+
+#head-navlink .navbar ul li {
+  list-style: none;
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  background-color: #e8ecf1;
+  border: 5px solid #e8ecf1;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+#head-navlink .navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  padding-top: 40px;
+}
+
+.container .row .col-lg-4 {
+  position: relative;
+}
+
+.container .row .col-lg-4 .about {
+  position: absolute;
+  top: 70px;
+  left: 30px;
+}
+
+.container .row .col-lg-4 .buton {
+  position: absolute;
+  bottom: 70px;
+  left: 30px;
+}
+
+.container .row .col-lg-4 .buton input {
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid #f45369;
+  background-color: #f45369;
+  margin-right: 25px;
+}
+
+.container .row .col-lg-4 .img1 {
+  position: absolute;
+  top: 70px;
+  left: 50px;
+  width: 300px;
+  height: 200px;
+}
+
+#popular .container .row {
+  background-color: #f9fafb;
+  height: 360px;
+  border-radius: 20px;
+}
+
+#popular .container .row .col-lg-4 {
+  position: relative;
+}
+
+#popular .container .row .col-lg-4 .icon {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 300px;
+  height: 200px;
+}
+
+#popular .row .col-lg-4 .buton input {
+  color: white;
+  font-size: 20px;
+}
+
+#popular .row .col-lg-4 .buton a {
+  text-decoration: none;
+  color: black;
+}
+
+#popular .row .col-lg-4 .about ul {
+  margin: 0px;
+}
+
+#popular .row .col-lg-4 .about ul li {
+  text-decoration: none;
+  list-style: none;
+  margin-right: 80px;
+}
+
+#cards {
+  padding-top: 60px;
+}
+
+#cards .container .row .col-lg-4 {
+  padding-top: 60px;
+}
+
+#cards .container .row .col-lg-4 .capitalcard {
+  width: 410px;
+  height: 280px;
+  background-color: #f9fafb;
+  position: relative;
+  border-radius: 20px;
+}
+
+#cards .container .row .col-lg-4 .capitalcard img {
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  left: 30px;
+  bottom: 80%;
+}
+
+#cards .container .row .col-lg-4 .capitalcard .card {
+  width: 250px;
+  height: 150px;
+  position: absolute;
+  top: 90px;
+  border: none;
+  left: 20px;
+  background-color: #f9fafb;
+}
+
+#cards .container .row .col-lg-4 .capitalcard .buton-card {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0px;
+}
+
+#cards .container .row .col-lg-4 .capitalcard .buton-card input {
+  width: 150px;
+  height: 50px;
+}
+
+#cards .container .row .col-lg-4 .capitalcard .buton-card input:hover {
+  background-color: #f45369;
+}
+
+#cards .container .row .col-lg-4 .capitalcard .buton-card a {
+  width: 100%;
+  height: 50px;
+  margin: 40px;
+  text-decoration: none;
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */
