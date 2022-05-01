@@ -1,93 +1,218 @@
-p{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
     width: 800px;
 }
 
-.nav{
-    
-    ul{
-        padding-left: 0px;
-        padding-top: 20px;
-        
-        
-        li{
-            list-style: none;
-            padding-right: 50px;
-            
-            width: 80px;
-            height: 40px;
-            background-color: aqua;
-            border-radius: 20px;
-        
-            margin-right: 10px;
-            text-align: center;
-            a{
-                text-decoration: none;     
+
+#head-navlink{
+    .navbar{       
+        ul{
+
+            .one    
+                    {
+                        background-color: #f45369;;
+                        border: 5px solid #f45369;;
+                    }
+            li{
+                    list-style: none;
+                    width: 90px;
+                    height: 40px;
+                    text-align: center;
+                    background-color: #e8ecf1;
+                    border: 5px solid #e8ecf1;
+                    border-radius: 20px;
+                    margin-right: 10px;
+                    
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
             }
         }
     }
 }
 
 
-.col-4{
-    img{
-        width: 300px;
-        height: 180px;
-    }
-}
-
-h5{
-    display: inline;
-    font-size: 18px;
-}
-
-.col-4{
-    .image{
-        padding: 60px 150px;
-    }
-}
-
-.cards{
-   .row{
-    background-color: grey;
-    height: 340px;
-   }
-}
-
-.bircartcas{
-    padding: 30px 50px;
-}
-
-.birkart{
-    padding-top: 30px;
-
-}
-
-.taksit{
-    h1{
-        padding-top: 30px;
-    }
-}
-
-.col-lg-4{
-    img{
-        width: 200px;
-        height: 120px;
+.container{
+    
+    padding-top: 40px;
+    .row{
         
+        .col-lg-4{
+            position: relative;
+
+            .about{
+                position: absolute;
+                top: 70px;
+                left: 30px;
+            }
+
+            .buton{
+                position: absolute;
+                bottom: 70px;
+                left: 30px;
+
+                input{
+                    width: 250px;
+                    height: 50px;
+                    border-radius: 10px;
+                    border: 2px solid #f45369;
+                    background-color: #f45369;
+                    margin-right: 25px;
+                }
+            }
+
+            .img1{
+                position: absolute;
+                top: 70px;
+                left: 50px;
+
+                width: 300px;
+                height: 200px;
+            }
+        }
     }
 }
 
-.col-lg-4{
-    .image{
-        padding-top: 40px;
+
+
+#popular{
+    
+    .container{
+
+        .row{
+            background-color: #f9fafb;
+            height: 360px;
+            border-radius: 20px;
+            .col-lg-4{
+                position: relative;
+                
+                .icon{
+                    
+                    position: absolute;
+                    top: 30px;
+                    left: 30px;
+    
+                    width: 300px;
+                    height: 200px;
+                }
+
+                
+            }
+        }
     }
 }
 
-.col-lg-4{
-    .card{
-        border-radius: 15px;
+
+
+
+#popular{
+    .row{
+        .col-lg-4{
+
+            .buton{
+                input{
+                    color: white;
+                    font-size: 20px;
+                }
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+            
+            .about{
+                
+                ul{
+                   margin: 0px;
+                 
+                    li{ 
+                        text-decoration: none;
+                        list-style: none;
+                        margin-right: 80px;
+                    }
+                }
+            }
+        }
     }
 }
 
-button{
-    border-radius: 10px;
+
+
+
+#cards{
+    padding-top: 60px;
+    .container{
+        .row{
+            .col-lg-4{
+                padding-top: 60px;
+                .capitalcard{
+                    width: 410px;
+                    height: 280px;
+                    background-color: #f9fafb;
+                    position: relative;
+                    border-radius: 20px;
+                    
+
+                    
+                    
+                    img{
+                        width: 150px;
+                        height: 100px;
+                        position: absolute;
+                        left: 30px;
+                        bottom: 80%;
+                        
+                        
+                    }
+
+                    .card{
+                        width: 250px;
+                        height: 150px;
+                        position: absolute;
+                        top: 90px;
+                        border: none;
+                        left: 20px;
+                        background-color: #f9fafb;
+                        
+                    }
+
+                    .buton-card{
+                        width: 100%;
+                        height: 50px;
+                        position: absolute;
+                        bottom: 0px;
+                        
+                        
+                        input{
+                            width: 150px;
+                            height: 50px
+                        }
+                        
+                        input:hover{
+                            background-color: #f45369;
+                        }
+                        
+                        a{
+                            width: 100%;
+                            height: 50px;
+                            margin: 40px;
+                            text-decoration: none;  
+                            color: black;
+                            
+                        }
+
+                       
+                    }
+                }
+    
+            }
+    
+        }
+    }
 }
